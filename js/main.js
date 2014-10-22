@@ -35,7 +35,7 @@ var score = 0;
 var highscore = 0;
 
 var pipeheight = 190; 
-var pipewidth = 520;
+var pipewidth = 52;
 var pipes = new Array();
 
 var replayclickable = false;
