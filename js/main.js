@@ -25,7 +25,7 @@ var states = Object.freeze({
 
 var currentstate;
 
-var gravity = 0.25;
+var gravity = 1.25;
 var velocity = 0;
 var position = 180;
 var rotation = 0;
@@ -34,8 +34,8 @@ var jump = -4.6;
 var score = 0;
 var highscore = 0;
 
-var pipeheight = 90;
-var pipewidth = 52;
+var pipeheight = 190; 
+var pipewidth = 520;
 var pipes = new Array();
 
 var replayclickable = false;
